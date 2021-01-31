@@ -13,13 +13,13 @@ CREATE TABLE IF NOT EXISTS apps (
    last_update_timestamp TIMESTAMP
 );
 ```
-##2. Generate random rows based on the table schema. See p1.py
+##2. Generate random rows based on the table schema. See p1.ipynb
 Make sure you have python package psycopg2 installed. If not and if you're using anaconda, simply run ```conda install -c anaconda psycopg2```
 Fill in the relevant username, database, password, and domain name.
 
-##3. Dump the data from Postgresql to a gzipped CSV file. See p2.py
+##3. Dump the data from Postgresql to a gzipped CSV file. See p2.ipynb
 
-##4. Upload the gzipped CSV to Amazon S3. See p3.py
+##4. Upload the gzipped CSV to Amazon S3. See p3.ipynb
 
-##5. Load the data from Amazon S3 to Redshift. See p4.py
+##5. Load the data from Amazon S3 to Redshift. See p4.ipynb
 
